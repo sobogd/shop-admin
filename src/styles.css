@@ -1,0 +1,53 @@
+.spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.tr-table {
+  cursor: pointer;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #dc3545;
+}
+.page-item.active .page-link {
+  border-color: #dc3545;
+  background-color: #dc3545;
+  color: white;
+}
+.page-link {
+  color: #dc3545;
+}
+.page-link:focus,
+.page-link:hover {
+  color: #dc3545;
+}
+.cursor-p {
+  cursor: pointer;
+}
